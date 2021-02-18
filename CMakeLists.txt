@@ -12,9 +12,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 # Libraries
 # ==============================================================================
 
-add_subdirectory("src")
+add_subdirectory("greeter")
 
-# Applications
-# ==============================================================================
-
-add_subdirectory("applications")
